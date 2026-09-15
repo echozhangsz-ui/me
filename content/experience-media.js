@@ -80,18 +80,18 @@ window.experienceProjectMedia = {
   emba: [
     {
       key: "project-01-EMBA-Study",
-      video: "content/experiences/emba/videos/project-01-Graduation-Ceremony.mp4",
+      video: "https://www.youtube.com/watch?v=Q-KrE5GxFxk",
       thumbnail: "content/experiences/emba/thumbnails/project-01-Graduation-Ceremony.png"
     },
     {
       key: "project-02-EMBA-Study",
-      video: "content/experiences/emba/videos/project-02-Project-Presentation.mp4",
+      video: "https://www.youtube.com/shorts/yBmoZzw5FF0",
       thumbnail: "content/experiences/emba/thumbnails/project-02-Project-Presentation.png",
       fit: "contain"
     },
     {
       key: "project-03-EMBA-Study",
-      video: "content/experiences/emba/videos/project-03-Cohort.mp4",
+      video: "https://www.youtube.com/watch?v=lFP0yGH7c7c",
       thumbnail: "content/experiences/emba/thumbnails/project-03-Cohort.png"
     }
   ],
