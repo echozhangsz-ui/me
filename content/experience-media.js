@@ -2,12 +2,12 @@ window.experienceProjectMedia = {
   "ai-builder": [
     {
       key: "project-01-Tower-Defense-demo",
-      video: "content/experiences/ai-builder/videos/project-01-Tower-Defense-demo.mp4",
+      video: "https://www.youtube.com/watch?v=kHrcZDB9Zsc",
       thumbnail: "content/experiences/ai-builder/thumbnails/project-01-Tower-Defense-Demo.png"
     },
     {
       key: "project-02-Hole-io-demo",
-      video: "content/experiences/ai-builder/videos/Project-02-Hole-io-demo.mp4",
+      video: "https://www.youtube.com/watch?v=pqS29H1_Kgo",
       thumbnail: "content/experiences/ai-builder/thumbnails/project-02-Hole-io-demo.png"
     },
     {
@@ -17,7 +17,7 @@ window.experienceProjectMedia = {
     },
     {
       key: "project-04-desktop-pet",
-      video: "content/experiences/ai-builder/videos/project-04-desktop-pet.mp4",
+      video: "https://www.youtube.com/watch?v=Scf-mlb_vYo",
       thumbnail: "content/experiences/ai-builder/thumbnails/project-04-desktop-pet.png"
     }
   ],
