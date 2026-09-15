@@ -1107,12 +1107,17 @@ button {
 
 .project-stage img,
 .project-stage video,
+.project-stage iframe,
 .project-empty {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
   height: auto;
   object-fit: cover;
+}
+
+.project-stage iframe {
+  border: 0;
 }
 
 .project-stage video.is-contain {

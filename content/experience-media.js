@@ -143,17 +143,17 @@ window.experienceProjectMedia = {
   sandbox: [
     {
       key: "project-01-The-Little-Prince",
-      video: "content/experiences/sandbox/videos/project-01-THE-LITTLE-PRINCE.mp4",
+      video: "https://www.youtube.com/watch?v=oR7l9R59FuA",
       thumbnail: "content/experiences/sandbox/thumbnails/project-01-the-little-prince.png"
     },
     {
       key: "project-02-The-Voice",
-      video: "content/experiences/sandbox/videos/project-02-The-Voice.mp4",
+      video: "https://www.youtube.com/watch?v=xB00fNTqiB8",
       thumbnail: "content/experiences/sandbox/thumbnails/project-02-the-voice.png"
     },
     {
       key: "project-03-Chupa-Chups-City",
-      video: "content/experiences/sandbox/videos/project-03-Chupa%20Chups.mp4",
+      video: "https://www.youtube.com/watch?v=Ir1VgCPjIzs",
       thumbnail: "content/experiences/sandbox/thumbnails/project-03-chupa-chups-city.png"
     }
   ],

@@ -583,6 +583,31 @@
     }
   }
 
+  function youtubeEmbedUrl(url) {
+    if (!url) {
+      return "";
+    }
+    try {
+      const parsed = new URL(url, window.location.href);
+      const host = parsed.hostname.replace(/^www\./, "");
+      let videoId = "";
+      if (host === "youtube.com" || host === "m.youtube.com") {
+        videoId = parsed.searchParams.get("v") || "";
+        if (!videoId && parsed.pathname.startsWith("/embed/")) {
+          videoId = parsed.pathname.split("/")[2] || "";
+        }
+      } else if (host === "youtu.be") {
+        videoId = parsed.pathname.slice(1).split("/")[0] || "";
+      }
+      if (!videoId) {
+        return "";
+      }
+      return `https://www.youtube.com/embed/${encodeURIComponent(videoId)}`;
+    } catch (error) {
+      return "";
+    }
+  }
+
   function renderProjectMedia(project) {
     if (!project) {
       return `
@@ -592,6 +617,10 @@
         </div>`;
     }
     if (project.video) {
+      const embedUrl = youtubeEmbedUrl(project.video);
+      if (embedUrl) {
+        return `<iframe class="project-youtube" src="${embedUrl}" title="${escapeHtml(project.title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+      }
       const fitClass = project.fit === "contain" ? " class=\"is-contain\"" : "";
       return `<video${fitClass} src="${project.video}"${project.thumbnail ? ` poster="${project.thumbnail}"` : ""} controls playsinline></video>`;
     }
