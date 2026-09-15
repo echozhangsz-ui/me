@@ -707,6 +707,10 @@
       video.removeAttribute("src");
       video.load();
     });
+    modal.querySelectorAll("iframe").forEach((iframe) => {
+      iframe.src = "";
+      iframe.removeAttribute("src");
+    });
   }
 
   function resetModalScroll() {
@@ -746,6 +750,7 @@
 
   function closeModal() {
     stopModalMedia();
+    modal.querySelector(".modal-projects").innerHTML = "";
     modal.setAttribute("aria-hidden", "true");
     document.body.classList.remove("modal-open");
     resetModalCurveEdge();
