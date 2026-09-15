@@ -177,17 +177,17 @@ window.experienceProjectMedia = {
   vtech: [
     {
       key: "project-01-learning-wheels",
-      video: "content/experiences/vtech/videos/project-01-Learning-Wheels.mp4",
+      video: "https://www.youtube.com/watch?v=jWIWIsmJo-E&t=804s",
       thumbnail: "content/experiences/vtech/thumbnails/project-01-Learning-wheel.png"
     },
     {
       key: "project-02-spongebob-squarepants",
-      video: "content/experiences/vtech/videos/project-02-SpongeBob-SquarePants.mp4",
+      video: "https://www.youtube.com/watch?v=jTq2kGJSNFA&t=1241s",
       thumbnail: "content/experiences/vtech/thumbnails/project-02-Spongebob%20Squarepants.jpg"
     },
     {
       key: "project-03-the-incredibles",
-      video: "content/experiences/vtech/videos/project-01-The-Incredibles.mp4",
+      video: "https://www.youtube.com/watch?v=_o80KSsxe4w&t=2813s",
       thumbnail: "content/experiences/vtech/thumbnails/project-03-The-Incredible.jpg"
     }
   ]
