@@ -4,7 +4,7 @@ window.portfolioTranslations = {
     ui: {
       eyebrow: "Game Producer · Product Builder",
       heroLine: "Building games. Connecting cultures.",
-      heroMeta: "15+ years in digital and game products · France & China",
+      heroMeta: "15+ years in digital and game products · based in Lyon France",
       profileTitle: "Profile",
       profileBullets: [
         "Senior Game Producer with 15+ years of experience across platforms.",
