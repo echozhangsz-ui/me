@@ -1,0 +1,24 @@
+:root {
+  --sky: #06152a;
+  --gold: #ebc477;
+  --ivory: #f4f0e8;
+}
+.portfolio-scene { position: relative; isolation: isolate; background: var(--sky); color: var(--ivory); overflow: hidden; }
+.sky-layer { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; z-index: -2; }
+.landscape-layer { position: absolute; bottom: 0; left: 0; width: 100%; height: auto; pointer-events: none; z-index: -1; }
+.career-node { position: absolute; width: 84px; height: 84px; transform: translate(-50%, -50%); background: transparent; border: 0; cursor: pointer; }
+.career-node img { position: absolute; inset: 0; width: 100%; height: 100%; transition: opacity 240ms ease; pointer-events: none; }
+.career-node .visited { opacity: 0; }
+.career-node[data-visited="true"] .visited { opacity: 1; }
+.career-node[data-visited="true"] .unvisited { opacity: 0; }
+.career-node:focus-visible { outline: 1px solid var(--gold); border-radius: 50%; }
+.constellation-lines { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.constellation-lines path { fill: none; stroke: #74acdc; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.opportunity { position: relative; width: 120px; aspect-ratio: 1; display: grid; place-items: center; }
+.opportunity img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.opportunity span { position: relative; color: var(--gold); font-size: 36px; }
+.flight-particle { position: absolute; width: 320px; height: auto; pointer-events: none; transform-origin: 77% 45%; z-index: 10; }
+@media (prefers-reduced-motion: reduce) {
+  .career-node img { transition: none; }
+  .flight-particle { display: none; }
+}

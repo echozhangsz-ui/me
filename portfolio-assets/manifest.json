@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "reference": "Selected constellation homepage",
+  "asset_count": 8,
+  "assets": [
+    {
+      "file": "png/globe-icon.png",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 1159748,
+      "partial_alpha_pixels": 403890
+    },
+    {
+      "file": "png/landscape.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 825137,
+      "partial_alpha_pixels": 24812
+    },
+    {
+      "file": "png/monogram-xz.png",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 1440245,
+      "partial_alpha_pixels": 129024
+    },
+    {
+      "file": "png/opportunity-ring.png",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 1350896,
+      "partial_alpha_pixels": 220157
+    },
+    {
+      "file": "png/particle-trail.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 1461577,
+      "partial_alpha_pixels": 110182
+    },
+    {
+      "file": "png/star-blue.png",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 1416032,
+      "partial_alpha_pixels": 156444
+    },
+    {
+      "file": "png/star-gold.png",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 1335143,
+      "partial_alpha_pixels": 235508
+    },
+    {
+      "file": "png/starfield.png",
+      "width": 1586,
+      "height": 992,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": "straight",
+      "transparent_pixels": 1317815,
+      "partial_alpha_pixels": 255445
+    }
+  ]
+}

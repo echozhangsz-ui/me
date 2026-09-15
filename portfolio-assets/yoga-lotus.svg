@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Yoga lotus icon">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0c777" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#8fb7e8" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#8fb7e8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="8" y1="8" x2="56" y2="58">
+      <stop offset="0%" stop-color="#edf5ff"/>
+      <stop offset="52%" stop-color="#a9bdd6"/>
+      <stop offset="100%" stop-color="#e9bf70"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="29" fill="url(#glow)" opacity="0.5"/>
+  <g fill="none" stroke="url(#line)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="16.5" r="4.3"/>
+    <path d="M23.8 28.5c3.4-4.7 12.1-4.7 15.5 0"/>
+    <path d="M32 22.4v10.8"/>
+    <path d="M18.5 31.2c5.4 1.2 9.4 3.9 13.5 8.8"/>
+    <path d="M45.5 31.2c-5.4 1.2-9.4 3.9-13.5 8.8"/>
+    <path d="M14.2 43.2c7.9-3.6 13.8-2.5 17.8 3.3"/>
+    <path d="M49.8 43.2c-7.9-3.6-13.8-2.5-17.8 3.3"/>
+    <path d="M20.4 50.5h23.2"/>
+  </g>
+</svg>
