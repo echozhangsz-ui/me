@@ -591,6 +591,7 @@
       const parsed = new URL(url, window.location.href);
       const host = parsed.hostname.replace(/^www\./, "");
       let videoId = "";
+      let startSeconds = 0;
       if (host === "youtube.com" || host === "m.youtube.com") {
         videoId = parsed.searchParams.get("v") || "";
         if (!videoId && parsed.pathname.startsWith("/embed/")) {
@@ -605,7 +606,23 @@
       if (!videoId) {
         return "";
       }
-      return `https://www.youtube.com/embed/${encodeURIComponent(videoId)}`;
+      const timeValue = parsed.searchParams.get("t") || parsed.searchParams.get("start") || "";
+      if (/^\d+$/.test(timeValue)) {
+        startSeconds = Number(timeValue);
+      } else {
+        const timeMatch = timeValue.match(/(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s?)?/);
+        if (timeMatch && timeMatch[0]) {
+          startSeconds =
+            Number(timeMatch[1] || 0) * 3600 +
+            Number(timeMatch[2] || 0) * 60 +
+            Number(timeMatch[3] || 0);
+        }
+      }
+      const embedUrl = new URL(`https://www.youtube.com/embed/${encodeURIComponent(videoId)}`);
+      if (startSeconds > 0) {
+        embedUrl.searchParams.set("start", String(startSeconds));
+      }
+      return embedUrl.toString();
     } catch (error) {
       return "";
     }

@@ -105,17 +105,17 @@ window.experienceProjectMedia = {
   gameloft: [
     {
       key: "project-01-wheres-wally-now",
-      video: "content/experiences/gameloft/videos/project-01-Wheres-Wally-Now.mp4",
+      video: "https://www.youtube.com/watch?v=jcOuPc_jCOg",
       thumbnail: "content/experiences/gameloft/thumbnails/project-01-wheres-wally-now.png"
     },
     {
       key: "project-02-fashion-icon",
-      video: "content/experiences/gameloft/videos/project-02-Fashion-Icon.mp4?v=fashion-video-2",
+      video: "https://www.youtube.com/watch?v=hpxGHOVdhbQ&t=125s",
       thumbnail: "content/experiences/gameloft/thumbnails/project-02-fashion-icon.png"
     },
     {
       key: "project-03-kingdoms-and-lords",
-      video: "content/experiences/gameloft/videos/project-03-Kingdom-and-Lords.mp4",
+      video: "https://www.youtube.com/watch?v=Wifn1kro_KY&t=137s",
       thumbnail: "content/experiences/gameloft/thumbnails/project-03-kingdoms-and-lords.png"
     }
   ],
