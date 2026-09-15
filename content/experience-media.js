@@ -122,7 +122,7 @@ window.experienceProjectMedia = {
   i4player: [
     {
       key: "project-01-merge-defense",
-      video: "content/experiences/i4player/videos/project-01-Merge-and-Defense.mp4",
+      video: "https://www.youtube.com/watch?v=TSVN-Kted8I",
       thumbnail: "content/experiences/i4player/thumbnails/project-01-merge-defense.png"
     }
   ],
