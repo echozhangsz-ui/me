@@ -596,6 +596,9 @@
         if (!videoId && parsed.pathname.startsWith("/embed/")) {
           videoId = parsed.pathname.split("/")[2] || "";
         }
+        if (!videoId && parsed.pathname.startsWith("/shorts/")) {
+          videoId = parsed.pathname.split("/")[2] || "";
+        }
       } else if (host === "youtu.be") {
         videoId = parsed.pathname.slice(1).split("/")[0] || "";
       }

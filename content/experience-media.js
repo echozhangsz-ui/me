@@ -160,17 +160,17 @@ window.experienceProjectMedia = {
   voodoo: [
     {
       key: "project-01-snake-vs-block",
-      video: "content/experiences/voodoo/videos/project-01-Snack-vs-Block.mp4",
+      video: "https://www.youtube.com/shorts/MwHKlSXvO4M",
       thumbnail: "content/experiences/voodoo/thumbnails/project-01-snake-vs-block.png"
     },
     {
       key: "project-02-castle-raid",
-      video: "content/experiences/voodoo/videos/project-02-Castle-Raid.mp4",
+      video: "https://www.youtube.com/shorts/qEw8EiQUHEg",
       thumbnail: "content/experiences/voodoo/thumbnails/project-02-castle-raid.png"
     },
     {
       key: "project-03-mob-control",
-      video: "content/experiences/voodoo/videos/project-03-Mob-Control.mp4",
+      video: "https://www.youtube.com/shorts/aO9Ra7x5A0s",
       thumbnail: "content/experiences/voodoo/thumbnails/project-03-mob-control.png"
     }
   ],
