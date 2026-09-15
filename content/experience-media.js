@@ -98,7 +98,7 @@ window.experienceProjectMedia = {
   funplus: [
     {
       key: "project-01-family-farm",
-      video: "content/experiences/funplus/videos/project-01-Family-Farm.mp4",
+      video: "https://www.youtube.com/watch?v=vqr9yj0brSM",
       thumbnail: "content/experiences/funplus/thumbnails/project-01-family-farm.png"
     }
   ],
