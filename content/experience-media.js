@@ -58,22 +58,22 @@ window.experienceProjectMedia = {
   "career-break": [
     {
       key: "Project-01-Traval-Yoga",
-      video: "content/experiences/career-break/videos/Project-01-Traval-Yoga.mp4",
+      video: "https://www.youtube.com/watch?v=_WRXzewV7OE",
       thumbnail: "content/experiences/career-break/thumbnails/Project-01-Traval-Yoga.png"
     },
     {
       key: "Project-02-TriYoga-Flow",
-      video: "content/experiences/career-break/videos/Project-02-TriYoga-Flow.MOV",
+      video: "https://www.youtube.com/watch?v=UcRPV9s8p58",
       thumbnail: "content/experiences/career-break/thumbnails/Project-02-TriYoga-Flow.png"
     },
     {
       key: "Project-03-TriYoga-Flow",
-      video: "content/experiences/career-break/videos/Project-03-TriYoga-Flow.MOV",
+      video: "https://www.youtube.com/watch?v=C8hcliP2f5I",
       thumbnail: "content/experiences/career-break/thumbnails/project-03-project-03-placeholder.png"
     },
     {
       key: "Project-04-TriYoga-Flow",
-      video: "content/experiences/career-break/videos/Project-04-TriYoga-Flow.MOV",
+      video: "https://www.youtube.com/watch?v=0RSYE3wWjX0",
       thumbnail: "content/experiences/career-break/thumbnails/Project-04-TriYoga-Flow.png"
     }
   ],
